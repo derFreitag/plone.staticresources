@@ -8,7 +8,7 @@ module.exports = () => {
 
     config.output.path = path.resolve(
         __dirname,
-        "src/plone/staticresources/static/bundle-plone/"
+        "src/plone/staticresources/static/bundle-plone/",
     );
 
     config.plugins.push(
@@ -26,7 +26,7 @@ module.exports = () => {
                     },
                 },
             ],
-        })
+        }),
     );
 
     return config;
