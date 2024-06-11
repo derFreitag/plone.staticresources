@@ -1,4 +1,5 @@
 allowBuilds:
+  '@der-freitag/mockup': true
   '@parcel/watcher': true
   '@patternslib/dev': true
   '@plone/mockup': true
