@@ -8,6 +8,17 @@ Changelog
 
 .. towncrier release notes start
 
+2.2.0.post0 (2025-02-20)
+------------------------
+
+Bug fixes:
+
+
+- Use custom mockup @ninanoleto @gforcada
+- Use final interface locations, otherwise it fails
+  [gforcada]
+
+
 2.2.0 (2025-02-07)
 ------------------
 
