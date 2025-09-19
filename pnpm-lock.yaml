@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@plone/mockup':
+      '@der-freitag/mockup':
         specifier: 5.6.7
         version: 5.6.7(@popperjs/core@2.11.8)(posthtml@0.16.7)(react@19.2.4)
       bootstrap-icons:
@@ -743,6 +743,10 @@ packages:
     resolution: {integrity: sha512-Vd/9EVDiu6PPJt9yAh6roZP6El1xHrdvIVGjyBsHR0RYwNHgL7FJPyIIW4fANJNG6FtyZfvlRPpFI4ZM/lubvw==}
     engines: {node: '>=18'}
 
+  '@der-freitag/mockup@5.6.7':
+    resolution: {integrity: sha1-SpMDG4l22q29rmemocQ4Mutgg8k=, tarball: https://gitlab.com/api/v4/projects/52336424/packages/npm/@der-freitag/mockup/-/@der-freitag/mockup-5.6.7.tgz}
+    engines: {node: '>=22'}
+
   '@discoveryjs/json-ext@0.5.7':
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
@@ -1464,10 +1468,6 @@ packages:
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@plone/mockup@5.6.7':
-    resolution: {integrity: sha512-Xdea28CEGfMo7zTGhDshk5HgMGCtoeafYsfru245wZBxwQtNQQ/ks2dDUqF0Jz4uTC9Ze6RdukXZcn1MG8qdzg==}
-    engines: {node: '>=22'}
-
   '@plone/registry@2.7.2':
     resolution: {integrity: sha512-f8Akqgzo0qSfte+CT2Pr5AzzmjXGSUhJ65v08bnPdWRJiqFt6eEK0RgcX6vW4rPaOkuipJI9gkGDuO3lHBvB3Q==}
     peerDependencies:
@@ -1854,7 +1854,7 @@ packages:
     resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
 
   Select2@https://codeload.github.com/ivaynberg/select2/tar.gz/95a977f674b6938af55ec5f28b7772df93786c5c:
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/ivaynberg/select2/tar.gz/95a977f674b6938af55ec5f28b7772df93786c5c}
+    resolution: {gitHosted: true, integrity: sha512-42On0yUzjhE/vNTVRT/+3wUwIpKyUGEW31PA1gFRv0j+OjgXJgo4aJVWCfjEpMa+O34PYKCfEdUN0OWaAEQ/6Q==, tarball: https://codeload.github.com/ivaynberg/select2/tar.gz/95a977f674b6938af55ec5f28b7772df93786c5c}
     version: 3.5.4
 
   accepts@1.3.8:
@@ -3048,6 +3048,7 @@ packages:
   git-raw-commits@5.0.1:
     resolution: {integrity: sha512-Y+csSm2GD/PCSh6Isd/WiMjNAydu0VBiG9J7EdQsNA5P9uXvLayqjmTsNlK5Gs9IhblFZqOU0yid5Il5JPoLiQ==}
     engines: {node: '>=18'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@8.1.1:
@@ -4606,13 +4607,13 @@ packages:
     engines: {node: '>=14.16'}
 
   slick-carousel@https://codeload.github.com/kenwheeler/slick/tar.gz/d0716f19aa730006ee80ab026625fb1107816a97:
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/kenwheeler/slick/tar.gz/d0716f19aa730006ee80ab026625fb1107816a97}
+    resolution: {gitHosted: true, integrity: sha512-WVCRgvut3tsZhTdSxC0fdyhSUd3OU1w1G9OO2seTCpUpHPsFhL366/S6rZX+yNGkHTbEoxd+xyUIEwuKMXIxVQ==, tarball: https://codeload.github.com/kenwheeler/slick/tar.gz/d0716f19aa730006ee80ab026625fb1107816a97}
     version: 1.8.1
     peerDependencies:
       jquery: '>=1.8.0'
 
   slides@https://codeload.github.com/Patternslib/slides/tar.gz/9319c68a208f92b7f21f4239916ca05429b9e139:
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/Patternslib/slides/tar.gz/9319c68a208f92b7f21f4239916ca05429b9e139}
+    resolution: {gitHosted: true, integrity: sha512-HhKm7fXoJdSC583+cHdtwYJWVxdZKFVlxw4areY6qONEwpPNqp7etl30Mojg+CEz/STATpcQXOZII6KvoYwiDQ==, tarball: https://codeload.github.com/Patternslib/slides/tar.gz/9319c68a208f92b7f21f4239916ca05429b9e139}
     version: 0.1.1
 
   smart-buffer@4.2.0:
@@ -4794,7 +4795,7 @@ packages:
     engines: {node: '>=18'}
 
   svg-country-flags@https://codeload.github.com/hampusborgos/country-flags/tar.gz/c09927e63705529bbf59ca6684cd9b23225dddad:
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/hampusborgos/country-flags/tar.gz/c09927e63705529bbf59ca6684cd9b23225dddad}
+    resolution: {gitHosted: true, integrity: sha512-yI+0v91WE+gFR/CXsdeXBuLLjvHbAAioGBGI4ddQLaF9efiiiXFdma+UXcGjXQrZUZZ93Tkc2tmdIR+wX+aRXg==, tarball: https://codeload.github.com/hampusborgos/country-flags/tar.gz/c09927e63705529bbf59ca6684cd9b23225dddad}
     version: 1.2.10
 
   svg-inline-loader@0.8.2:
@@ -6213,6 +6214,51 @@ snapshots:
 
   '@csstools/css-tokenizer@3.0.4': {}
 
+  '@der-freitag/mockup@5.6.7(@popperjs/core@2.11.8)(posthtml@0.16.7)(react@19.2.4)':
+    dependencies:
+      '@11ty/eleventy-upgrade-help': 3.0.2(posthtml@0.16.7)
+      '@patternslib/pat-code-editor': 4.0.1
+      '@patternslib/patternslib': 9.10.6
+      '@plone/registry': 2.7.2(react@19.2.4)
+      backbone: 1.6.1
+      backbone.paginator: 2.0.8
+      bootstrap: 5.3.8(@popperjs/core@2.11.8)
+      bootstrap-icons: 1.13.1
+      cs-jqtree-contextmenu: 0.1.0(jquery@3.7.1)
+      datatables.net: 2.3.8
+      datatables.net-bs5: 2.3.8
+      datatables.net-buttons: 3.2.6
+      datatables.net-buttons-bs5: 3.2.6
+      datatables.net-colreorder: 2.1.2
+      datatables.net-colreorder-bs5: 2.1.2
+      datatables.net-fixedcolumns: 5.0.5
+      datatables.net-fixedcolumns-bs5: 5.0.5
+      datatables.net-fixedheader: 4.0.6
+      datatables.net-fixedheader-bs5: 4.0.6
+      datatables.net-rowreorder: 1.5.1
+      datatables.net-rowreorder-bs5: 1.5.1
+      datatables.net-select: 3.1.3
+      datatables.net-select-bs5: 3.1.3
+      dropzone: 6.0.0-beta.2
+      jqtree: 1.8.11(jquery@3.7.1)
+      jquery: 3.7.1
+      jquery-form: 4.3.0
+      jquery.browser: 0.1.0
+      js-cookie: 3.0.8
+      select2: Select2@https://codeload.github.com/ivaynberg/select2/tar.gz/95a977f674b6938af55ec5f28b7772df93786c5c
+      slick-carousel: https://codeload.github.com/kenwheeler/slick/tar.gz/d0716f19aa730006ee80ab026625fb1107816a97(jquery@3.7.1)
+      slides: https://codeload.github.com/Patternslib/slides/tar.gz/9319c68a208f92b7f21f4239916ca05429b9e139
+      sortablejs: 1.15.7
+      tinymce: 8.6.0
+      tinymce-i18n: 26.5.18
+      underscore: 1.13.8
+    transitivePeerDependencies:
+      - '@popperjs/core'
+      - posthtml
+      - react
+      - react-dom
+      - supports-color
+
   '@discoveryjs/json-ext@0.5.7': {}
 
   '@discoveryjs/json-ext@0.6.3': {}
@@ -7199,51 +7245,6 @@ snapshots:
     optional: true
 
   '@pkgr/core@0.2.9': {}
-
-  '@plone/mockup@5.6.7(@popperjs/core@2.11.8)(posthtml@0.16.7)(react@19.2.4)':
-    dependencies:
-      '@11ty/eleventy-upgrade-help': 3.0.2(posthtml@0.16.7)
-      '@patternslib/pat-code-editor': 4.0.1
-      '@patternslib/patternslib': 9.10.6
-      '@plone/registry': 2.7.2(react@19.2.4)
-      backbone: 1.6.1
-      backbone.paginator: 2.0.8
-      bootstrap: 5.3.8(@popperjs/core@2.11.8)
-      bootstrap-icons: 1.13.1
-      cs-jqtree-contextmenu: 0.1.0(jquery@3.7.1)
-      datatables.net: 2.3.8
-      datatables.net-bs5: 2.3.8
-      datatables.net-buttons: 3.2.6
-      datatables.net-buttons-bs5: 3.2.6
-      datatables.net-colreorder: 2.1.2
-      datatables.net-colreorder-bs5: 2.1.2
-      datatables.net-fixedcolumns: 5.0.5
-      datatables.net-fixedcolumns-bs5: 5.0.5
-      datatables.net-fixedheader: 4.0.6
-      datatables.net-fixedheader-bs5: 4.0.6
-      datatables.net-rowreorder: 1.5.1
-      datatables.net-rowreorder-bs5: 1.5.1
-      datatables.net-select: 3.1.3
-      datatables.net-select-bs5: 3.1.3
-      dropzone: 6.0.0-beta.2
-      jqtree: 1.8.11(jquery@3.7.1)
-      jquery: 3.7.1
-      jquery-form: 4.3.0
-      jquery.browser: 0.1.0
-      js-cookie: 3.0.8
-      select2: Select2@https://codeload.github.com/ivaynberg/select2/tar.gz/95a977f674b6938af55ec5f28b7772df93786c5c
-      slick-carousel: https://codeload.github.com/kenwheeler/slick/tar.gz/d0716f19aa730006ee80ab026625fb1107816a97(jquery@3.7.1)
-      slides: https://codeload.github.com/Patternslib/slides/tar.gz/9319c68a208f92b7f21f4239916ca05429b9e139
-      sortablejs: 1.15.7
-      tinymce: 8.6.0
-      tinymce-i18n: 26.5.18
-      underscore: 1.13.8
-    transitivePeerDependencies:
-      - '@popperjs/core'
-      - posthtml
-      - react
-      - react-dom
-      - supports-color
 
   '@plone/registry@2.7.2(react@19.2.4)':
     dependencies:
