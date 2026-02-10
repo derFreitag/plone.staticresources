@@ -8,6 +8,15 @@ Changelog
 
 .. towncrier release notes start
 
+2.3.5.post1 (2026-02-10)
+------------------------
+
+Bug fixes:
+
+
+- Fix brown bag release @gforcada
+
+
 2.3.5.post0 (2026-02-10)
 ------------------------
 
