@@ -8,6 +8,15 @@ Changelog
 
 .. towncrier release notes start
 
+3.0.2.post0 (2026-06-26)
+------------------------
+
+Bug fixes:
+
+
+- Use custom mockup @ninanoleto @gforcada
+
+
 3.0.2 (2026-06-26)
 ------------------
 
